@@ -38,4 +38,4 @@ Original test image fed into the YOLOv11X model:
 
 ### Inference Result
 The model's output with detected anomalies highlighted:
-![Inference Result](test1_result.jpg)
+![Inference Result](test1_result.png)
