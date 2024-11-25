@@ -31,6 +31,8 @@ The YOLOv11X model was fine-tuned using Ultralytics' pre-trained checkpoint.
 3. Trained the model using the following command:
    ```bash
    !yolo task=detect mode=train model=yolo11x.pt data=/path/to/data.yaml epochs=200 imgsz=720
+Link to the colab notebook:
+https://colab.research.google.com/drive/17k8xrvKWkJcc8iOY_daPkR3kqUGcXa3m#scrollTo=FDbMt_M6PiXb
 
 ### Input Test Image
 Original test image fed into the YOLOv11X model:
