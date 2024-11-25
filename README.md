@@ -32,4 +32,10 @@ The YOLOv11X model was fine-tuned using Ultralytics' pre-trained checkpoint.
    ```bash
    !yolo task=detect mode=train model=yolo11x.pt data=/path/to/data.yaml epochs=200 imgsz=720
 
+### Input Test Image
+Original test image fed into the YOLOv11X model:
+![Original Image](test1.jpg)
 
+### Inference Result
+The model's output with detected anomalies highlighted:
+![Inference Result](test1_result.jpg)
